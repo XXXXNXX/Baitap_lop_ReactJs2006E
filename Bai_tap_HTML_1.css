@@ -3,24 +3,92 @@
     margin: 0;
     border: 0;
 }
+header{
+    display: block;
+    height: 240px;
+}
+#header-top{
+    display: block;
+    width: 100%;
+    height: 120px;
+}
+a{
+    color: black;
+}
 .logo{
-    display: inline-block;
+    display: block;
+    float: left;
     max-width: 50%;
+    width: 25%;
+    min-width: 25%;
+    height: inherit;
 }
 .options{
-    display: inline-block;
-    max-width: 75%;
-    width: 75%;
+    display: block;
+    float: left;
+    max-width: 50%;
+    width: 50%;
+    height: inherit;
+    box-sizing: border-box;
 }
 .sign-in{
     display: block;
-    width: 50%;
-    float: right;
+    float: left;
+    width: 12.5%;
+    height: inherit;
 }
 .call{
     display: block;
-    width: 50%;
     float: right;
+    width: 12.5%;
+    height: inherit;
+}
+#header-bottom{
+    display: block;
+    width: 100%;
+    background-color: #1FB9AB;
+    min-height: 120 px;
+    height: 70px;
+}
+.choices{
+    display: block;
+    width: 30%;
+    background-color: yellow;
+    float: left;
+    height: inherit;
+}
+.search{
+    display: block;
+    width: 50%;
+    float: left;
+    background-color: inherit;
+    height: inherit;
+}
+#search-goods{
+    height: 30px;
+    width: 70%;
+}
+#submit-search-goods{
+    height: 30px;
+    background-color: yellow;
+}
+.cart{
+    display: block;
+    width: 10%;
+    float: left;
+    background-color: inherit;
+    height: inherit;
+}
+.print{
+    display: block;
+    width: 10%;
+    float: left;
+    background-color: inherit;
+    height: inherit;
+}
+.intro-1{
+    display: inline-block;
+    width: 100%;
 }
 input{
     border: 1px solid;
@@ -29,4 +97,90 @@ input{
 button{
     border: 1px solid;
     border-color: black;
+}
+#content-1{
+    display: block;
+    height: 250px;
+}
+.services{
+    display: block;
+    height: 200px;
+}
+.hang-1{
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+.hang-2{
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+.cot-1{
+    display: inline-block;
+    margin: 5 5 5 5;
+    padding: 5 5 5 5;
+    border: 2px solid white;
+    width: 33%;
+    height: inherit;
+    background-color: blue;
+    color: brown;
+}
+.cot-2{
+    display: inline-block;
+    margin: 5 5 5 5;
+    padding: 5 5 5 5;
+    width: 33%;
+    height: inherit;
+    border: 2px solid white;
+    background-color: green;
+    color: yellow;
+}
+.cot-3{
+    display: inline-block;
+    margin: 5 5 5 5;
+    padding: 5 5 5 5;
+    width: 33%;
+    height: inherit;
+    border: 2px solid white;
+    background-color: purple;
+    color: white;
+}
+#footer-top{
+    background-color: #1FB9AB;
+    height: 120px;
+}
+#footer-bottom{
+    background-color: #1B423E;
+    height: 300px;
+}
+#scam-word{
+    color: white;
+}
+.footer-cot-1{
+    display: block;
+    color: white;
+    float: left;
+    width: 25%;
+}
+.footer-cot-2{
+    display: block;
+    color: white;
+    float: left;
+    width: 25%;
+}
+.footer-cot-3{
+    display: block;
+    color: white;
+    float: left;
+    width: 25%;
+}
+.footer-cot-4{
+    display: block;
+    color: white;
+    float: left;
+    width: 25%;
+}
+#last-line{
+    color: white;
 }
