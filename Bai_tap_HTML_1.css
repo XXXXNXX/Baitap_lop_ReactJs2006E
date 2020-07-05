@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.logo{
+    display: inline-block;
+    max-width: 50%;
+}
+.options{
+    display: inline-block;
+    max-width: 75%;
+    width: 75%;
+}
+.sign-in{
+    display: block;
+    width: 50%;
+    float: right;
+}
+.call{
+    display: block;
+    width: 50%;
+    float: right;
+}
+input{
+    border: 1px solid;
+    border-color: black;
+}
+button{
+    border: 1px solid;
+    border-color: black;
+}
