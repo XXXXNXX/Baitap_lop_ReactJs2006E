@@ -8,36 +8,208 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="Bai_tap_HTML_1.css"/>
+        <link rel="stylesheet" href="./css/Bai_tap_HTML_1.css"/>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
         <header>
             <div id = "header-top">
                 <div class = "logo">
-                    <a href = ""><img src = "logo_printgo.png"></a>
+                    <a href = ""><img src = "./images/logo_printgo.png"></a>
                 </div>
                 <div class = "options">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th><a href = ""><h2>Lĩnh vực</h2></a></th>
-                                <th><a href = ""><h2>Chính sách</h2></a></th>
-                                <th><a href =""><h2>Tin tức</h2></a></th>
-                                <th><a href = ""><h2>Thiết kế</h2></a></th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <div class="option">
+                        <img src="./images/linh-vuc-main.png">
+                        <a href = "" class="hover-table"><b>Lĩnh vực</b></a>
+                        <div class="sub-menu">
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/linh-vuc-kinh-doanh.jpg"></div>
+                                <div class="s-o-content"><h6>Kinh doanh</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/linh-vuc-nha-hang.jpg"></div>
+                                <div class="s-o-content"><h6>Nhà hàng</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/linh-vuc-du-lich.jpg"></div>
+                                <div class="s-o-content"><h6>Du lịch</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/linh-vuc-thoi-trang.jpg"></div>
+                                <div class="s-o-content"><h6>Thời trang</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/linh-vuc-su-kien.jpg"></div>
+                                <div class="s-o-content"><h6>Sự kiện</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/linh-vuc-ca-nhan.png"></div>
+                                <div class="s-o-content"><h6>Cá nhân</h6></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <a href = "" class="no-effect"><b>Chính sách</b></a>
+                    </div>
+                    <div class="option">
+                        <a href ="" class="hover-table"><b>Tin tức</b></a>
+                        <div class="sub-menu">
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-content"><h6>Kĩ thuật in</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-content"><h6>Đồ hoạ</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-content"><h6>Mỹ thuật</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-content"><h6>Tin tức Printgo</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-content"><h6>Khuyến mãi</h6></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <a href = "" class="hover-table"><b>Thiết kế</b></a>
+                        <div class="sub-menu">
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/goi-thiet-ke.png"></div>
+                                <div class="s-o-content"><h6>Gói thiết kế</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/san-pham-thiet-ke.png"></div>
+                                <div class="s-o-content"><h6>Sản phẩm thiết kế</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/dang-ki-doi-tac.png"></div>
+                                <div class="s-o-content"><h6>Đăng kí đối tác</h6></div>
+                                </a>
+                            </div>
+                            <div class="sub-option">
+                                <a href="" class="s-o-link">
+                                <div class="s-o-img"><img src="./images/bo-suu-tap-logo.png"></div>
+                                <div class="s-o-content"><h6>Bộ sưu tập logo</h6></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <a href = "" class="no-effect">
                 <div class = "sign-in">
-                    <p><a href = "">Đăng nhập</a></p>
+                    <p><img src = "./images/icon-sign-in.jpg">Đăng nhập</p>
                 </div>
+                </a>
                 <div class = "call">
-                    <p><a href = "">1900.633313</a></p>
+                    <a href = "">
+                    <div class="call-button">    
+                        <p>1900.633313</p>
+                    </div>
+                </a>
                 </div>
             </div>
             <div id = "header-bottom">
                 <div class = "choices">
-                    <h2>Danh mục sản phẩm</h2>
+                    <a href="" class="hover-table">
+                        <div class="icon-danh-muc"><img src="./images/danh-muc-chon.png"></div>
+                        <div class ="danh-muc"><h3>Danh mục sản phẩm</h3></div>
+                    </a>
+                    <div class="choices-sub-menu">
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/name-card.jpg"></div>
+                            <div class="c-s-o-content"><h4>Name card</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/hop-giay.jpg"></div>
+                            <div class="c-s-o-content"><h4>Hộp giấy</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/catalogue.jpg"></div>
+                            <div class="c-s-o-content"><h4>Catalogue</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/thiep-moi.png"></div>
+                            <div class="c-s-o-content"><h4>Thiệp mời</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/tui-giay.png"></div>
+                            <div class="c-s-o-content"><h4>Túi giấy</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/to-roi.jpg"></div>
+                            <div class="c-s-o-content"><h4>Tờ rơi</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/to-gap.jpg"></div>
+                            <div class="c-s-o-content"><h4>Tờ gấp</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/phieu-qua-tang.png"></div>
+                            <div class="c-s-o-content"><h4>Phiếu quà tặng</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/nhan-decal.png"></div>
+                            <div class="c-s-o-content"><h4>Nhãn decal</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/hoa-don.png"></div>
+                            <div class="c-s-o-content"><h4>Hoá đơn</h4></div>
+                            </a>
+                        </div>
+                        <div class="choices-sub-option">
+                            <a href="" class="c-s-o-link">
+                            <div class="c-s-o-img"><img src="./images/phong-bi-thu.jpg"></div>
+                            <div class="c-s-o-content"><h4>Phong bì thư</h4></div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class = "search">
                     <form>
@@ -53,136 +225,560 @@
                 </div>
             </div>
         </header>
+        <div id="break-column">
+            <a href="" class="muon-mau-xanh">Trang chủ</a>
+            <span class="xanh">  /  Thiết kế</span>
+        </div>
         <div id = "content-1">
             <div class = "intro-1">
                 <h2>Gói thiết kế</h2>
             </div>
             <div class = "services">
-                <div class = "hang-1">
-                    <a href = "">
-                        <div class = "cot-1">
+                <div class = "c1-hang-1">
+                    <div class = "c1-h1-cot-1">
+                        <a href = "" title= "Bộ nhận diện thương hiệu" class = "no-effect">
+                        <img src="./images/intro1-hang1-cot1.png">
+                        <div class = "c1-h1-cot-1-content">
                             <h3>Thiết kế</h3><br>
                             <h4>Bộ nhận diện thương hiệu</h4>
                         </div>
-                    </a>
-                    <a href = "">
-                        <div class = "cot-2">
+                        <div class="c1-h1-cot-1-image"><img src="./images/gach-gold.png"></div>
+                        <div class="c1-h1-cot-1-footer">
+                            <div class="bong-den"><img src="./images/bong-den-vang-den.png"></div>
+                            <div class="canh-bong-den"><b>100</b> sản phẩm đã thiết kế</div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class = "c1-h1-cot-2">
+                        <a href = "" title= "Bao bì sản phẩm" class = "no-effect">
+                        <img src="./images/intro1-hang1-cot2.png">
+                        <div class = "c1-h1-cot-2-content">
                             <h3>Thiết kế</h3><br>
                             <h4>Bao bì sản phẩm</h4>
                         </div>
-                    </a>
-                    <a href = "">
-                        <div class = "cot-3">
+                        <div class="c1-h1-cot-2-image"><img src="./images/gach-gold.png"></div>
+                        <div class="c1-h1-cot-2-footer">
+                            <div class="bong-den"><img src="./images/bong-den-tim-trang.png"></div>
+                            <div class="canh-bong-den"><b>100</b> sản phẩm đã thiết kế</div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class = "c1-h1-cot-3">
+                        <a href = "" title= "Ấn phẩm văn phòng" class = "no-effect">
+                        <img src="./images/intro1-hang1-cot3.png">
+                        <div class = "c1-h1-cot-3-content">
                             <h3>Thiết kế</h3><br>
                             <h4>Ấn phẩm văn phòng</h4>
                         </div>
-                    </a>
+                        <div class="c1-h1-cot-3-image"><img src="./images/gach-gold.png"></div>
+                        <div class="c1-h1-cot-3-footer">
+                            <div class="bong-den"><img src="./images/bong-den-vang-den.png"></div>
+                            <div class="canh-bong-den"><b>100</b> sản phẩm đã thiết kế</div>
+                        </div>
+                        </a>
+                    </div>
                 </div>
-                <div class = "hang-2">
-                    <a href = "">
-                        <div class = "cot-1">
+                <div class = "c1-hang-2">
+                    <div class = "c1-h2-cot-1">
+                        <a href = "" title= "Bộ ấn phẩm sự kiện" class = "no-effect">
+                        <img src="./images/intro1-hang2-cot1.png">
+                        <div class = "c1-h2-cot-1-content">
                             <h3>Thiết kế</h3><br>
                             <h4>Bộ ấn phẩm sự kiện</h4>
                         </div>
-                    </a>
-                    <a href = "">
-                        <div class = "cot-2">  
+                        <div class="c1-h2-cot-1-image"><img src="./images/gach-gold.png"></div>
+                        <div class="c1-h2-cot-1-footer">
+                            <div class="bong-den"><img src="./images/bong-den-tim-nhat-trang.png"></div>
+                            <div class="canh-bong-den"><b>100</b> sản phẩm đã thiết kế</div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class = "c1-h2-cot-2">
+                        <a href = "" title= "Sản phẩm truyền thông online" class = "no-effect">
+                        <img src="./images/intro1-hang2-cot2.png">
+                        <div class = "c1-h2-cot-2-content">
                             <h3>Thiết kế</h3><br>
                             <h4>Sản phẩm truyền thông online</h4>
                         </div>
-                    </a>
-                    <a href = "">
-                        <div class = "cot-3">
-                            <h3>Trở thành nhà thiết kế</h3><br>
-                            <h4>Đăng kí ngay</h4>
+                        <div class="c1-h2-cot-2-image"><img src="./images/gach-gold.png"></div>
+                        <div class="c1-h2-cot-2-footer">
+                            <div class="bong-den"><img src="./images/bong-den-xanh-trang.png"></div>
+                            <div class="canh-bong-den"><b>100</b> sản phẩm đã thiết kế</div>
                         </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class = "c1-h2-cot-3">
+                        <a href = "" title= "" class = "no-effect">
+                        <img src="./images/intro1-hang2-cot3.png">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id = "content-2">
+        <div id="content-2">
             <div class = "intro-2">
-
+                <div class="dan-intro-2">
+                    <h2>Sản phẩm thiết kế</h2>
+                </div>
+                <div class="search-intro-2">
+                    <div class="tim-an-pham">
+                    <form action="#">
+                        <input type="search" id="tim-an-pham"placeholder="Ấn phẩm bạn cần">
+                    </form>
+                    </div>
+                    <div class="tim-kiem">
+                        <img src="./images/logo-tim-kiem.png" id="logo-tim-kiem">
+                        </img>
+                        <button type="submit" id="tim-kiem">
+                        </button>    
+                    </div>
+                    <div class="loc">
+                        <select>
+                            <option>Lọc theo gói thiết kế</option>
+                            <option>Gói cao cấp</option>
+                            <option>Gói Premium</option>
+                            <option>Gói Begin</option>
+                        </select>
+                    </div>
+                </div>
             </div>
-            <div class = "goods">
-                
+            <div class = "product">
+                <div class ="hang-21">
+                    <div class = "cot-21">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-21-content">
+                                <img src="./images/content2-hang1-cot1.jpg">
+                                <h5><br>THIẾT KẾ LOGO</h5>
+                            </div>
+                            <div class ="cot-21-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>70</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                    <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class ="cot-22">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-22-content">
+                                <img src="./images/content2-hang1-cot2.jpg">
+                                <h5><br>THIẾT KẾ NAME CARD</h5>
+                            </div>
+                            <div class ="cot-22-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>13</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>                                
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-23">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-23-content">
+                                <img src="./images/content2-hang1-cot3.jpg">
+                                <h5><br>THIẾT KẾ HỘP GIẤY</h5>
+                            </div>
+                            <div class ="cot-23-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>50</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-24">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-24-content">
+                                <img src="./images/content2-hang1-cot4.jpg">
+                                <h5><br>THIẾT KẾ CATALOGUE</h5>
+                            </div>
+                            <div class ="cot-24-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>8</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class ="hang-22">
+                    <div class = "cot-21">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-21-content">
+                                <img src="./images/content2-hang2-cot1.jpg">
+                                <h5><br>THIẾT KẾ THIỆP MỜI</h5>
+                            </div>
+                            <div class ="cot-21-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>30</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class ="cot-22">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-22-content">
+                                <img src="./images/content2-hang2-cot2.jpg">
+                                <h5><br>THIẾT KẾ TỜ RƠI</h5>
+                            </div>
+                            <div class ="cot-22-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>6</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-23">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-23-content">
+                                <img src="./images/content2-hang2-cot3.jpg">
+                                <h5><br>THIẾT KẾ TỜ GẤP</h5>
+                            </div>
+                            <div class ="cot-23-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>11</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-24">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-24-content">
+                                <img src="./images/content2-hang2-cot4.jpg">
+                                <h5><br>THIẾT KẾ TÚI GIẤY</h5>
+                            </div>
+                            <div class ="cot-24-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>25</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class ="hang-23">
+                    <div class = "cot-21">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-21-content">
+                                <img src="./images/content2-hang3-cot1.jpg">
+                                <h5><br>THIẾT KẾ PHIẾU QUÀ TẶNG</h5>
+                            </div>
+                            <div class ="cot-21-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>20</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class ="cot-22">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-22-content">
+                                <img src="./images/content2-hang3-cot2.jpg">
+                                <h5><br>THIẾT KẾ NHÃN DECAL</h5>
+                            </div>
+                            <div class ="cot-22-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>34</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-23">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-23-content">
+                                <img src="./images/content2-hang3-cot3.jpg">
+                                <h5><br>THIẾT KẾ TIÊU ĐỀ THƯ</h5>
+                            </div>
+                            <div class ="cot-23-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>22</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-24">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-24-content">
+                                <img src="./images/content2-hang3-cot4.jpg">
+                                <h5><br>THIẾT KẾ PHONG BÌ THƯ</h5>
+                            </div>
+                            <div class ="cot-24-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>15</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class ="hang-24">
+                    <div class = "cot-21">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-21-content">
+                                <img src="./images/content2-hang4-cot1.jpg">
+                                <h5><br>THIẾT KẾ FILE KẸP HỒ SƠ</h5>
+                            </div>
+                            <div class ="cot-21-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>55</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class ="cot-22">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-22-content">
+                                <img src="./images/content2-hang4-cot2.jpg">
+                                <h5><br>THIẾT KẾ STANDEE</h5>
+                            </div>
+                            <div class ="cot-22-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>1</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-23">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-23-content">
+                                <img src="./images/content2-hang4-cot3.jpg">
+                                <h5><br>THIẾT KẾ MENU</h5>
+                            </div>
+                            <div class ="cot-23-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>5</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cot-24">
+                        <a href ="" class="no-effect">
+                            <div class = "cot-24-content">
+                                <img src="./images/content2-hang4-cot4.jpg">
+                                <h5><br>THIẾT KẾ HOÁ ĐƠN</h5>
+                            </div>
+                            <div class ="cot-24-footer">
+                                <div class="c2-footer-image">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <div class="c2-footer-content">
+                                    <p><b>10</b> mẫu đã thiết kế</p>
+                                </div>
+                                <div class="c2-footer-arrow">
+                                    <a href="" class="arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id = "content-3">
-            <div class = "intro-3">
-
-            </div>
-            <div class = "projects">
-                
-            </div>
-        </div>
+        <!-- Tạm bỏ phần 2 và 3-->
         <footer>
             <div id = "footer-top">
                 <div class = "footer-cot-1">
-                    <h4>In ấn</h4>
-                    <br>
-                    <h5>Mọi lúc, mọi nơi</h5>
+                    <div class="image-cot">
+                        <img src="./images/end-cot-1.png">
+                    </div>
+                    <div class ="word-cot">
+                    <b class = "upper-word-cot">IN ẤN</b>
+                    <p class = "lower-word-cot">Mọi lúc, mọi nơi</p>
+                    </div>
                 </div>
                 <div class = "footer-cot-2">
-                    <h4>Chi phí</h4>
-                    <br>
-                    <h5>Cạnh tranh nhất</h5>
+                    <div class="image-cot">
+                        <img src="./images/end-cot-2.png">
+                    </div>
+                    <div class ="word-cot">
+                    <b class = "upper-word-cot">CHI PHÍ</b>
+                    <p class = "lower-word-cot">Cạnh tranh nhất</p>
+                    </div>
                 </div>
                 <div class = "footer-cot-3">
-                    <h4>Thiết kế</h4>
-                    <br> <h5>Kho thư viện phong phú</h5>
+                    <div class="image-cot">
+                        <img src="./images/end-cot-3.png">
+                    </div>
+                    <div class ="word-cot">
+                    <b class = "upper-word-cot">THIẾT KẾ</b>
+                    <p class = "lower-word-cot">Kho thư viện phong phú</p>
+                    </div>
                 </div>
                 <div class = "footer-cot-4">
-                    <h4>Chất lượng</h4> <br>
-                    <h5>Luôn luôn đảm bảo</h5>
+                    <div class="image-cot">
+                        <img src="./images/end-cot-4.png">
+                    </div>
+                    <div class ="word-cot">
+                    <b class = "upper-word-cot">CHẤT LƯỢNG</b>
+                    <p class = "lower-word-cot">Luôn luôn đảm bảo</p>
+                    </div>
                 </div>
             </div>
             <div id = "footer-bottom">
                 <div class = "scam">
+                    <br>
                     <h2 id = "scam-word">Nhập địa chỉ email của bạn để nhận ngay 50.000 VNĐ</h2>
                     <br>
-                    <form action = "">
-                        <input type = "email" name = "email" placeholder = "Email của bạn">
-                        <button type = "submit">Đăng kí ngay!</button>
-                    </form>
+                    <div class = "form-scam">
+                        <form action = "">
+                            <input type = "email" name = "email" id = "type-email" placeholder = "Email của bạn">
+                            <button type = "submit" id = "submit-email"><img src="./images/icon-submit-mail.jpg">
+                            ĐĂNG KÍ</button>
+                        </form>
+                    </div>
                 </div>
                 <div class = "end">
                     <div id = "customer-center">
                         <h5>CHĂM SÓC KHÁCH HÀNG</h5>
-                        <a class = "link-end" href = ""><p>Hotline: 1900.633313</p></a><br>
-                        <a class = "link-end" href = ""><p>CSKH: 0901.633.313</p></a><br>
-                        <a class = "link-end" href = ""><p>E-mail: sale@printgo.vn</p></a><br>
-                        <a class = "link-end" href = ""><p>Hướng dẫn in ấn</p></a><br>
-                        <a class = "link-end" href = ""><p>Hướng dẫn thanh toán</p></a><br>
+                        <a class = "link-end" href = ""><p>Hotline: 1900.633313</p></a>
+                        <a class = "link-end" href = ""><p>CSKH: 0901.633.313</p></a>
+                        <a class = "link-end" href = ""><p>E-mail: sale@printgo.vn</p></a>
+                        <a class = "link-end" href = ""><p>Hướng dẫn in ấn</p></a>
+                        <a class = "link-end" href = ""><p>Hướng dẫn thanh toán</p></a>
                     </div>
                     <div id = "about-company">
                         <h5>VỀ PRINTGO</h5>
-                        <a class = "link-end" href = ""><p>Giới thiệu Printgo</p></a><br>
-                        <a class = "link-end" href = ""><p>Chính sách bản quyền</p></a><br>
-                        <a class = "link-end" href = ""><p>Bảo mật thông tin</p></a><br>
-                        <a class = "link-end" href = ""><p>Tuyển dụng</p></a><br>
+                        <a class = "link-end" href = ""><p>Giới thiệu Printgo</p></a>
+                        <a class = "link-end" href = ""><p>Chính sách bản quyền</p></a>
+                        <a class = "link-end" href = ""><p>Bảo mật thông tin</p></a>
+                        <a class = "link-end" href = ""><p>Tuyển dụng</p></a>
                     </div>
                     <div id = "partners">
                         <h5>ĐỐI TÁC</h5>
-                        <a class = "link-end" href = ""><p>Vận chuyển</p></a><br>
-                        <a href = ""><img src = "ghn.jpg"></img></a>
-                        <a href = ""><img src = "ghtk.jpg"></img></a>
-                        <a href = ""><img src = "viettelpost.jpg"></img></a><br>
-                        <a class = "link-end" href = ""><p>Tuyển dụng</p></a><br>
-                        <a href = ""><img src = "topcv.jpg"></img></a>
+                        <a class = "link-end" href = ""><p>Vận chuyển</p></a>
+                        <a href = ""><img src = "./images/ghn.jpg"></img></a>
+                        <a href = ""><img src = "./images/ghtk.jpg"></img></a>
+                        <a href = ""><img src = "./images/viettelpost.jpg"></img></a>
+                        <a class = "link-end" href = ""><p>Tuyển dụng</p></a>
+                        <a href = ""><img src = "./images/topcv.jpg"></img></a>
                     </div>
                     <div id = "follow">
-                        <h5>Theo dõi PRINTGO</h5><br>
-                        <a href = ""><img src = "logo-facebook.png"></img></a>
-                        <a href = ""><img src = "logo-instagram.png"></img></a>
-                        <a href = ""><img src = "logo-youtube.png"></img></a>
-                        <a href = ""><img src = "linkin.png"></img></a>
-                        <a href = ""><img src = "printrest.png"></img></a><br>
+                        <h5>Theo dõi PRINTGO</h5>
+                        <a href = ""><img src = "./images/logo-facebook.png"></img></a>
+                        <a href = ""><img src = "./images/logo-youtube.png"></img></a>
+                        <a href = ""><img src = "./images/logo-instagram.png"></img></a>
+                        <a href = ""><img src = "./images/linkin.png"></img></a>
+                        <a href = ""><img src = "./images/printrest.png"></img></a>
                     </div>
                 </div>
                 <div class = "last">
-                    <p>Địa chỉ</p>
-                    <p>Copyright</p>
+                    <p>Địa chỉ: Tầng 19, toà nhà HCMCC, 249 A Thuỵ Khuê, Tây Hồ, Hà Nội. Tổng đài: 1900 633313 - Email : sale@printgo.vn</p>
+                    <p>Copyright © Công ty Cổ Phần PRINTGO Việt Nam. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
